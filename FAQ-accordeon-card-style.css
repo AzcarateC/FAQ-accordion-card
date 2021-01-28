@@ -1,3 +1,43 @@
-h1{ color:rgba(28, 0, 128, 0.801);}
-.ilustracion-fondo{background-color: indigo;}
-.caja-pregunta{text-align: right; font-size: medium;}
+h3
+{ 
+    color:black;
+}
+head
+{
+    content: FAQ;
+}
+
+body
+{
+    border: 8rem solid violet;
+    border-radius: 20px;
+    margin: 70px;
+    margin-bottom: 1%;
+    padding: 20px;
+}
+svg
+{
+    width:20cm;
+}
+button
+{
+    src: url(./images/icon-arrow-down.svg);
+
+}
+.cajas-preguntas
+{
+    position: relative;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.caja-pregunta::after
+{
+    display: block;
+}
+.caja-pregunta::before
+{
+    display: none;
+    
+}
